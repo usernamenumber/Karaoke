@@ -1,0 +1,75 @@
+$def with (ELT="$", F="$F", H="$H", A="$A")
+<head>
+<script src="/prototypejs" type="text/javascript" language="javascript"></script>
+<script src="/karaokejs" type="text/javascript" language="javascript"></script>
+<link href="/loadcss" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="javascript:karaoke_init()">
+<div id="mainPage">
+	<div id="warnings"></div>
+	<div id='playlistContainer'>
+		<div id="playlistLabel" class="label">
+			Current Playlist 
+		</div>
+		<div id="playlist"></div>
+	</div>
+	
+	<div id="singerNameContainer" >	
+		<div id=stepOneLabel style="
+			color:lightgray;
+			font-size:230%;
+			position:relative;
+			top:30px;
+			left:-35px;">
+			1
+		</div>
+		<div id="singerNameLabel" class="label">
+			Enter Your Name:
+		</div>
+		<input id="singerName" value="Some Singer"/>
+	</div>
+	
+	<div id="artistPartialContainer">	
+		<div id=stepTwoLabel style="
+			color:lightgray;
+			font-size:230%;
+			position:relative;
+			left:-35px;">
+			2
+		</div>
+		<div id="artistPartialLabel" class="label">
+			Search:
+			<span id="searchToggleContainer"/>
+		</div>
+		<input id="artistPartial"/>
+	</div>
+	
+<!--	<div id="genreContainer">
+		<div id="genreLabel" class="label">
+			Narrow by Genre:
+		</div>
+	</div> -->
+	
+	<div id="resultsContainer">
+		<div id="artistContainer" class="artistContainer">
+			<div id="artistLabel" class="label">
+				Artist:
+			</div>
+		</div>
+		
+		<div id="trackContainer" class="trackContainer">
+			<div id="trackLabel" class="label">
+				Tracks <span style="font-size:70%">(double-click to enqueue)</span>:
+			</div>
+		</div>
+		
+		<div id="combinedContainer" class="combinedContainer">
+			<div id="combinedLabel" class="label">
+				Tracks <span style="font-size:70%">(double-click to enqueue)</span>:
+			</div>
+			<div id="combinedList"/>
+		</div>
+	</div>
+</div>
+</body>

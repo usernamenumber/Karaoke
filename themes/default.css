@@ -1,0 +1,126 @@
+body {
+	background-color: #423a42;
+}
+
+thead {
+	font-weight:bold;
+}
+
+.label {
+	font-size: large;
+}
+
+#mainPage { 
+	background: #7e027d;
+	padding: 10px;
+	color: white;
+	width:590px;
+	height:600px;
+	font-size:large;
+	z-index:10;
+}
+
+#playlistContainer 	{ 
+	width: 630px;
+	height: 130px;
+	overflow: auto;
+}
+#playlist {
+	background-color: white;
+	color: black;
+	border: thin solid gray;
+	width: 585px;
+}
+#playlistLabel {
+	/*font-weight:bold;*/
+}
+
+#genreContainer 		{
+	position: relative;
+	width: 300px;
+	left:325px;
+	top: 260px;
+	z-index: 10;
+}
+#genre							{
+	width: 300px;
+}
+
+#singerNameContainer{
+	width: 600px;
+	top: 250px;
+	margin-left: 35px;
+}
+#singerName					{
+	width: 550px;
+}
+
+#artistPartialContainer {
+	width: 600px;
+	/*left: 325px;*/
+	margin-left: 35px;
+	margin-top: 30px;
+	top: 270px;
+}
+#artistPartialLabel {
+	position:relative;
+	top:-40px;
+}
+#artistPartial {
+	width: 550px;
+	position:relative;
+	top:-35px;
+}
+
+#searchToggleContainer {
+	position: relative;
+	font-size:70%;
+}
+
+#artistContainer		{ 
+	border: thin solid gray;
+	text-align:center; 
+	position:relative;
+	width: 285px;
+}
+#artistSelector			{ 
+	width:95%; 
+}
+
+#trackContainer			{ 
+	border: thin solid gray;
+	text-align:center; 
+	position:relative;
+	top: -208px;
+	left: 300px;
+	width: 285px;
+}
+#trackSelector			{ 
+	width:95%; 
+}
+
+#combinedContainer		{ 
+	border: thin solid gray;
+	text-align:center; 
+	position:relative;
+	top:-410px;
+	width:570px;
+	height:200px;
+	padding:10px;
+	overflow:auto;
+	vertical-align:top;
+	text-align:center;
+}
+#combinedList {
+	background-color: white;
+	color: gray;
+	border: thin solid gray;
+	width: 560px;
+}
+
+.unselectable {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
+	 cursor:default;
+}

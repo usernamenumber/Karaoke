@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: eyeD3
+Version: 0.6.17
+Summary: Python ID3 and mp3 Tools
+Home-page: http://eyed3.nicfit.net/
+Author: Travis Shirk
+Author-email: travis@pobox.com
+License: UNKNOWN
+Description: 
+        eyeD3 is a Python module and program for processing ID3 tags.
+        Information about mp3 files (i.e bit rate, sample frequency,
+        play time, etc.) is also provided.  The formats supported are ID3
+        v1.0/v1.1 and v2.3/v2.4.
+        
+Platform: UNKNOWN

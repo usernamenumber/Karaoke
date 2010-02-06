@@ -1,0 +1,20 @@
+Dependencies:
+ID3.py	http://id3-py.sourceforge.net/
+web.py	http://webpy.org/
+pygame	http://pygame.org/
+pycdg	http://www.kibosh.org/pykaraoke/
+simplejson http://pypi.python.org/pypi/simplejson
+
+Getting started:
+1) Install the dependencies
+2) Create a config file (run karaoke-update.py with no args for an example)
+3) Run ./karaoke-updatedb.py configfile
+4) Run ./karaoke-webapp.py configfile
+5) Point your web browser at the url given and populate a playlist
+6) Run ./karaoke-player.py configfile
+
+While in karaoke-player.py, 'n' can be used to skip to the next track and 'q'
+can be used to quit. 
+
+You can also quickly play either a single .cdg file or a .pls file with one /path/to/file.cdg per line with ./quickplay whatever.pls
+
