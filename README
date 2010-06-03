@@ -1,7 +1,7 @@
 Overview:
-This (as yet un-named) project is a set of tools used for hosting karaoke parties. The novel thing about it is that while the karaoke-player
-component plays through the queue, anyone at the party can point their laptop at the karaoke system and use the web interface provided 
-by karaoke-webapp to browse and add tracks. 
+This (as yet un-named) project is a set of tools used for hosting karaoke parties. The novel thing about it is that 
+while the karaoke-player component plays through the queue, anyone at the party can point their laptop at the 
+karaoke system and use the web interface provided by karaoke-webapp to browse and add tracks. 
 
 Dependencies:
 ID3.py	http://id3-py.sourceforge.net/
